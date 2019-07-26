@@ -1,6 +1,6 @@
 # udemy-crawler
 
-[![Build Status](https://travis-ci.org/petehouston/udemy-crawler.svg?branch=master)](https://travis-ci.org/petehouston/udemy-crawler)
+[![Build Status](https://travis-ci.org/galakhov/udemy-crawler.svg?branch=master)](https://travis-ci.org/galakhov/udemy-crawler)
 
 **udemy-crawler** crawls a Udemy course data by a given url, scrapes it and provides JSON back.
 
