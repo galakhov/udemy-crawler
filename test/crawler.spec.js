@@ -62,7 +62,7 @@ describe('Crawler:', () => {
             ],
 
             couponCode: '',
-            price: 10.99,
+            price: 11.99,
             discount: 94
         };
     });

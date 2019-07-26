@@ -190,4 +190,4 @@ const udemyCourseContents = await scrapeUdemyCourseToJSON('your_url')
 
 [MIT](LICENSE.md),
 2018 by [Pete Houston](https://petehouston.com),
-2019 by [D. Galakhov](http://galakhov.de)
+2019 by [D. Galakhov](http://galakhov.de).
