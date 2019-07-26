@@ -10,7 +10,7 @@
     "prebuild": "eslint src",
     "build": "rollup -c",
     "pretest": "rollup -c",
-    "test": "cross-env NODE_ENV=test mocha --require @babel/register",
+    "test": "cross-env NODE_ENV=test mocha --require @babel/register --timeout 5000",
     "test:cover": "npm run build && cross-env NODE_ENV=test nyc mocha --require @babel/register",
     "cover": "cross-env NODE_ENV=test nyc report --reporter=text",
     "watch": "rollup -c -w",

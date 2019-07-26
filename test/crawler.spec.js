@@ -104,7 +104,7 @@ describe('Crawler:', () => {
 
             done();
         });
-    });
+    }).timeout(3500);
 
     it('should return Error on non-existing Udemy course', done => {
         crawler.execute(FAILURE_URL, err => {
