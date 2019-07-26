@@ -16,6 +16,9 @@
     "watch": "rollup -c -w",
     "prepublish": "npm test"
   },
+  "engines": {
+    "node": ">=8.0.0 <12.0.0"
+  },
   "nyc": {
     "sourceMap": false,
     "instrument": false,
